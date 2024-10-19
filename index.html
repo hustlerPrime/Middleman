@@ -244,8 +244,9 @@
             </h2>
             <p class="mb-8 xl:mb-10 max-w-md lg:text-lg fade_up_anim" data-delay="0.2">Middleman is the easiest, safest, and fastest way to  sell&amp; your giftcards.</p>
             <div x-data="modal" class="flex gap-6 fade_up_anim" data-delay="0.4">
-              <button @click="openModal" class="btn-primary">Sign-up</button>
-              <a href="buy-crypto.html" class="btn-accent6">Sell Now</a>
+              <a href="sign-up.html">
+              <button  class="btn-primary">Sign-up</button></a>
+              <a href="sign-up.html" class="btn-accent6">Sell Now</a>
               <template x-teleport="body">
                 <div class="fixed inset-0 z-[999] hidden overflow-y-auto bg-accent2/80 text-neutral1" :class="isOpen && '!block'">
                   <div class="flex min-h-screen items-center justify-center px-3" @click.self="closeModal">
